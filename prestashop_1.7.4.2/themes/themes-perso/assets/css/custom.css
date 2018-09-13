@@ -1,0 +1,137 @@
+/*
+ * Custom code goes here.
+ * A template should always ship with an empty custom.css
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/*ALL FONT FAMILY*/
+#contact-link a, #header a, #header .header-nav .blockcart, #header .top-menu a[data-depth="0"],
+.text-uppercase, h3, p, .featured-products .product-miniature .on-sale.on-sale,
+.featured-products .product-miniature .product-flags .new, .featured-products .highlighted-informations .quick-view,
+.featured-products .product-title a, .product-miniature .product-title a, .featured-products .all-product-link,
+#custom-text h2, #custom-text p .dark, #custom-text p, .block_newsletter p, .myaccount-title a, .footer-container li a,
+.collapse li a, .account-list a, .block-contact, .text-sm-center a {
+    font-family: 'Roboto', sans-serif;
+}
+/*END FONT FAMILY*/
+/* HEADER */
+#header .header-nav {
+    border-bottom: 2px solid #7a7a7a;
+    background-color: #0096b1;
+}
+
+.ui-autocomplete-input {
+    border-radius: 50px;
+}
+
+.search-widget form input[type="text"]:focus {
+    outline: none; 
+}
+
+#header a:hover {
+    color: #222222;
+}
+
+#contact-link a:hover {
+    color: #222222;
+}
+
+#header .top-menu a[data-depth="0"]:hover {
+    color: #ee5b2f;
+}
+
+.search-widget form input[type="text"] {
+    color: #7a7a7a;
+    border: 2px solid #efefef;
+    background-color: #F8F8F8;;
+}
+
+/* END HEADER */
+
+/* SECTION */
+#wrapper {
+    background-color: #efefef;
+}
+
+.caption {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.thumbnail-container {
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.thumbnail-container:hover {
+    -webkit-transform: scale(1.3);
+	transform: scale(1.1);
+}
+
+.featured-products .product-miniature .product-flags .new {
+    background: #ff4634;
+}
+
+.featured-products .highlighted-informations .quick-view:hover {
+    color: #ff4634;
+}
+
+.featured-products .product-miniature .on-sale.on-sale, .featured-products .product-miniature .discount-amount.discount-amount {
+    background-color: #0096b1;
+}
+
+.featured-products .all-product-link:hover {
+    color: #ff5c00;
+}
+
+#wrapper .banner {
+    display: flex;
+    justify-content: center;
+}
+
+.img-fluid {
+    width: 100%;
+    height: 230px;
+}
+/* END SECTION */
+
+/* FOOTER */
+.footer-container {
+    background-color: #222222;
+}
+
+.btn-primary {
+    background-color: #ff5c00;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: rgba(255, 92, 0, 0.8);
+}
+
+.h3 {
+    color: #ffffff;
+}
+
+#block_myaccount_infos .myaccount-title a {
+    color: #ffffff;
+}
+
+.block-contact .block-contact-title, .linklist .blockcms-title a {
+    color: #ffffff;
+}
+
+.cms-page-link {
+    color: #b9b9ac;
+}
+
+.collapse li a:hover, .dropdown:hover {
+    color: #ee5b2f;
+}
+
+.text-sm-center a {
+    color: #ee5b2f;
+}
+/* END FOOTER */
