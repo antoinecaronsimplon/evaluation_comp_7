@@ -1,3 +1,11 @@
 div.testimonies .block_content {
     position:relative; padding:10px;
 }
+
+h4 {
+    color: red;
+}
+
+.block_content p {
+    color: red;
+}

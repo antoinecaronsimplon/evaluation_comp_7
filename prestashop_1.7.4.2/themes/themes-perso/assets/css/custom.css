@@ -11,7 +11,7 @@
 .featured-products .product-miniature .product-flags .new, .featured-products .highlighted-informations .quick-view,
 .featured-products .product-title a, .product-miniature .product-title a, .featured-products .all-product-link,
 #custom-text h2, #custom-text p .dark, #custom-text p, .block_newsletter p, .myaccount-title a, .footer-container li a,
-.collapse li a, .account-list a, .block-contact, .text-sm-center a {
+.collapse li a, .account-list a, .block-contact, .text-sm-center a, h1 {
     font-family: 'Roboto', sans-serif;
 }
 /*END FONT FAMILY*/
@@ -71,19 +71,28 @@
 }
 
 .featured-products .product-miniature .product-flags .new {
-    background: #ff4634;
+    background: #0096b1;
 }
 
 .featured-products .highlighted-informations .quick-view:hover {
-    color: #ff4634;
+    color: #ee5b2f;
 }
 
-.featured-products .product-miniature .on-sale.on-sale, .featured-products .product-miniature .discount-amount.discount-amount {
-    background-color: #0096b1;
+.featured-products .product-miniature .on-sale.on-sale, .featured-products .product-miniature .discount-amount.discount-amount,
+li.product-flag.on-sale, .has-discount .discount  {
+    background-color: #ff5c00;
 }
 
-.featured-products .all-product-link:hover {
+.featured-products .all-product-link:hover, .has-discount.product-price {
     color: #ff5c00;
+}
+
+#products .product-miniature .on-sale.on-sale, #products .product-miniature .discount-amount.discount-amount {
+    background-color: #ff5c00;
+}
+
+#products .highlighted-informations .quick-view:hover {
+    color: #ee5b2f;
 }
 
 #wrapper .banner {

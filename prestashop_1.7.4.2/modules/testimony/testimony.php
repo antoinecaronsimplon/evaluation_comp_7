@@ -135,7 +135,7 @@ if (!defined('_PS_VERSION_')) {
      return $helper->generateForm($fields_form);
     }
 
-    public function hookheader()
+    public function hookHeader()
     {
     $this->context->controller->addJS($this->_path . '/views/js/testimony.js', 'all');
     $this->context->controller->addCSS($this->_path . '/views/css/testimony.css', 'all');
@@ -154,7 +154,7 @@ if (!defined('_PS_VERSION_')) {
     }
 
     public function hookDisplayHeader($params)
-  {
-      return $this->hookDisplayLeftColumn($params);
-  }
+    {
+        return $this->hookDisplayLeftColumn($params);
+    }
  }
